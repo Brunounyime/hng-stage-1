@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <script src="/js/script.js" defer></script>
+    <script
+      src="https://kit.fontawesome.com/19e29e9b0c.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <article class="profile-card" data-testid="test-profile-card">
+      <div class="card-content">
+        <header class="card-header">
+          <figure class="avatar-container">
+            <img
+              src="/assets/_DSC0109 (1).jpg"
+              alt="Profile picture of Bruno Unyime"
+              class="avatar"
+              data-testid="test-user-avatar"
+            />
+          </figure>
+
+          <div class="user-info">
+            <h2 data-testid="test-user-name">Bruno Unyime</h2>
+            <p class="bio" data-testid="test-user-bio">
+              With over 3 years of experience, I thrive in the dynamic world of
+              software development, driven by a passion for crafting delightful
+              user experiences and building robust server-side solutions.
+            </p>
+            <div
+              class="timestamp"
+              data-testid="test-user-time"
+              aria-label="Current timestamp in milliseconds"
+            >
+              Loading...
+            </div>
+          </div>
+        </header>
+
+        <nav class="social-links" aria-label="Social media links">
+          <h3>Connect With Me</h3>
+          <ul class="social-list" data-testid="test-user-social-links">
+            <li>
+              <a
+                href="https://x.com/BrunoUnyime"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-testid="test-user-social-twitter"
+              >
+                <span aria-hidden="true"
+                  ><i class="fa-brands fa-x-twitter"></i
+                ></span>
+                Twitter
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/Brunounyime"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-testid="test-user-social-github"
+              >
+                <span aria-hidden="true"
+                  ><i class="fa-brands fa-github"></i
+                ></span>
+                GitHub
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/unyime-bruno23/"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-testid="test-user-social-linkedin"
+              >
+                <span aria-hidden="true"
+                  ><i class="fa-brands fa-linkedin-in"></i
+                ></span>
+                LinkedIn
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="interests-section">
+          <section class="interest-group">
+            <h3>Hobbies</h3>
+            <ul
+              class="interest-list hobbies-list"
+              data-testid="test-user-hobbies"
+            >
+              <li>Driving</li>
+              <li>Playing Video Games</li>
+              <li>Reading</li>
+              <li>Traveling</li>
+              <li>Coding</li>
+              <li>Cooking</li>
+            </ul>
+          </section>
+
+          <section class="interest-group">
+            <h3>Dislikes</h3>
+            <ul
+              class="interest-list dislikes-list"
+              data-testid="test-user-dislikes"
+            >
+              <li>Traffic Jams</li>
+              <li>Poor Documentation</li>
+              <li>Lies</li>
+              <li>Bugs in Production</li>
+              <li>Slow internet</li>
+            </ul>
+          </section>
+        </div>
+      </div>
+    </article>
+
+    <div id="modal-overlay" class="modal-overlay" style="display: none">
+      <div class="modal">
+        <div id="modal-message"></div>
+        <div class="modal-actions">
+          <button id="modal-cancel" type="button">Cancel</button>
+          <button id="modal-ok" type="button">OK</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
