@@ -14,6 +14,8 @@ A simple, responsive profile card web application built with HTML, CSS, and Java
 
 ```
 index.html
+contact.html
+about.html
 assets/
   _DSC0109 (1).jpg
   _DSC0109.jpg
@@ -21,6 +23,8 @@ css/
   style.css
 js/
   script.js
+  nav.js
+  contact.js
 ```
 
 - [`index.html`](index.html): Main HTML file containing the profile card markup.
@@ -49,6 +53,8 @@ js/
 - Update profile info, hobbies, dislikes, or social links in [`index.html`](index.html).
 - Change styles in [`css/style.css`](css/style.css).
 - Replace default avatar in [`assets/_DSC0109 (1).jpg`](<assets/_DSC0109%20(1).jpg>).
+
+<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/e2bffced-282d-44d3-8fd6-2b249712129e" />
 
 ---
 
