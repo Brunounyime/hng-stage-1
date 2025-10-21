@@ -24,8 +24,12 @@ js/
 ```
 
 - [`index.html`](index.html): Main HTML file containing the profile card markup.
+- [`about.html`](about.html): HTML file containing the about page.
+- [`contact.html`](contact.html): HTML file containing the contact page.
 - [`css/style.css`](css/style.css): Styles for layout, colors, responsiveness, and accessibility.
 - [`js/script.js`](js/script.js): Handles avatar upload/reset, timestamp updates, and localStorage logic.
+- [`js/nav.js`](js/nav.js): Handles the navigation logic for mobile screens.
+- [`js/contact.js`](js/contact.js): Handles the contact form submission and validation.
 - [`assets/`](assets/): Contains default avatar images.
 
 ## Usage

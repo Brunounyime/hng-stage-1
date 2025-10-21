@@ -10,8 +10,35 @@
       src="https://kit.fontawesome.com/19e29e9b0c.js"
       crossorigin="anonymous"
     ></script>
+    <script src="/js/contact.js" defer></script>
+    <script src="/js/nav.js" defer></script>
   </head>
   <body>
+    <button class="hamburger" aria-label="Open navigation" id="nav-open-btn">
+      <span></span>
+    </button>
+    <nav aria-label="Main navigation" class="main-nav" id="main-nav">
+      <ul>
+        <li>
+          <a href="index.html" data-testid="test-nav-home" class="active"
+            >Home</a
+          >
+        </li>
+        <li><a href="about.html" data-testid="test-nav-about">About Me</a></li>
+        <li>
+          <a href="contact.html" data-testid="test-nav-contact">Contact Us</a>
+        </li>
+        <button
+          class="nav-close"
+          aria-label="Close navigation"
+          id="nav-close-btn"
+          style="display: none"
+        >
+          &#10005;
+        </button>
+      </ul>
+    </nav>
+
     <article class="profile-card" data-testid="test-profile-card">
       <div class="card-content">
         <header class="card-header">
