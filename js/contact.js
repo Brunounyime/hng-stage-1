@@ -54,7 +54,6 @@ document.addEventListener("DOMContentLoaded", function () {
       document.getElementById("error-message").textContent = "";
     }
 
-    // Show success message
     if (valid) {
       successMsg.style.display = "block";
       form.reset();

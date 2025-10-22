@@ -3,7 +3,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-/* --- NAV BAR FIX: MAKE IT STAY AT THE TOP --- */
 .main-nav {
   position: fixed;
   top: 0;
@@ -23,14 +22,14 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 80px 20px 20px 20px; /* Fixed padding syntax */
+  padding: 80px 20px 20px 20px;
   line-height: 1.6;
 }
 
 .profile-card {
   background: white;
   border-radius: 16px;
-  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.25); /* Unified shadow */
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.25);
   max-width: 900px;
   margin: 5rem auto 3rem auto;
   width: 100%;
@@ -66,12 +65,12 @@ body {
 
 .user-info h2 {
   font-size: 2rem;
-  color: #1a202c; /* Increased contrast */
+  color: #1a202c;
   margin-bottom: 0.5rem;
 }
 
 .bio {
-  color: #2d3748; /* Increased contrast */
+  color: #2d3748;
   font-size: 1rem;
   margin: 1rem 0;
 }
@@ -258,7 +257,7 @@ body {
   cursor: pointer;
   background: #667eea;
   color: #fff;
-  transition: background 0.2s, box-shadow 0.2s; /* Added transition */
+  transition: background 0.2s, box-shadow 0.2s;
   outline: none;
 }
 .modal-actions button#modal-cancel {
@@ -327,7 +326,7 @@ button,
   padding: 0.75rem 1.5rem;
   border-radius: 8px;
   cursor: pointer;
-  transition: background 0.2s, box-shadow 0.2s; /* Added transition */
+  transition: background 0.2s, box-shadow 0.2s;
   outline: none;
 }
 
@@ -421,7 +420,7 @@ button:focus,
     padding: 1rem 0.5rem;
   }
 }
-/* CONTACT CARD - MAIN STYLES */
+
 .contact-card {
   background: white;
   border-radius: 20px;
@@ -543,7 +542,6 @@ button[type="submit"]:active {
   font-weight: 500;
 }
 
-/* RESPONSIVE DESIGN - TABLET */
 @media (max-width: 768px) {
   .contact-card {
     padding: 2.5rem 2rem;
@@ -567,7 +565,6 @@ button[type="submit"]:active {
   }
 }
 
-/* RESPONSIVE DESIGN - MOBILE */
 @media (max-width: 430px) {
   .contact-card {
     padding: 1rem 1.5rem;
@@ -617,7 +614,6 @@ button[type="submit"]:active {
   }
 }
 
-/* Extra small devices */
 @media (max-width: 375px) {
   .contact-card {
     padding: 1.5rem 1rem;
@@ -648,7 +644,7 @@ button[type="submit"]:active {
     font-size: 0.9rem;
   }
 }
-/* Hamburger base styles */
+
 .hamburger {
   display: none;
   position: fixed;
@@ -697,7 +693,6 @@ button[type="submit"]:active {
   left: 0;
 }
 
-/* Animate to X when nav is open */
 .main-nav.open ~ .hamburger span {
   background: transparent;
 }

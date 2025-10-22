@@ -3,8 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const openBtn = document.getElementById("nav-open-btn");
   const closeBtn = document.getElementById("nav-close-btn");
 
-  if (!nav || !openBtn || !closeBtn) return; // Prevent errors if elements not found
-
+  if (!nav || !openBtn || !closeBtn) return;
   openBtn.addEventListener("click", () => {
     nav.classList.add("open");
     closeBtn.style.display = "block";
